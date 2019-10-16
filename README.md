@@ -26,10 +26,14 @@ For command line arguments:
 args go directly in the class initialization, kwargs get split between __init__ and scrape
 
 Format:
+
 `> ipython SiteScraper.py source_name start_url allowed_domain base_url cycle_limit json_filename='' tsv_filename='' db_filename=''`
 
 Examples:
 `> ipython SiteScraper.py msnbc https://www.msnbc.com/ msnbc.com https://www.msnbc.com db_filename=db/sitescraper.db`
+
 `> ipython SiteScraper.py vox https://www.vox.com/ vox.com https://www.vox.com db_filename=db/sitescraper.db`
+
 `> ipython SiteScraper.py breitbart https://www.breitbart.com/ breitbart.com https://www.breitbart.com db_filename=db/sitescraper.db`
+
 `> ipython SiteScraper.py fox https://www.foxnews.com/ foxnews.com https://www.foxnews.com db_filename=db/sitescraper.db`
